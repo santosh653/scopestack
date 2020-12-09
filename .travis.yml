@@ -5,7 +5,9 @@ language: go
 
 # Golang version matrix
 go:
-    - 1.6
+    - 1.13
+    - 1.14
+    - 1.15
 
 before_install:
     # Install code coverage / coveralls tooling
